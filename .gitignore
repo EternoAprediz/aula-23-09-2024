@@ -1,0 +1,26 @@
+# Ignora o ambiente virtual
+venv/
+
+# Arquivos e pastas do sistema
+__pycache__/
+*.py[cod]
+*.so
+
+# Arquivos de log
+*.log
+
+# Configurações do editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de banco de dados SQLite (se você usar SQLite)
+*.sqlite3
+
+# Ignora arquivos de configuração local ou temporária
+.env
+*.env
+
+# Arquivos criados pelo sistema operacional (opcionais)
+.DS_Store      # macOS
+Thumbs.db      # Windows
